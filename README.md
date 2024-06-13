@@ -144,14 +144,7 @@ curl -X GET "http://127.0.0.1:5000/get_all_info?group_by_ip=true"
 
 ![image](https://github.com/Z4ndre/Apache_logs_in_PostgreSQL/assets/148073988/93d6a400-3581-4582-adfc-363e75bbd3ed)
 
-Данные в таблице из API, поэтому требуется указать Host, Port и URL для корректной работы в файле **config.ini**
-
-```python
-[Api]
-host = 0.0.0.0
-port = 5000
-url = /get_all_info
-```
+Данные в таблице из API, проверьте правильность заполнения port, host и url для корректной работы в файле **config.ini**
 
 **Фильтрация**
 - По IP-адресу
